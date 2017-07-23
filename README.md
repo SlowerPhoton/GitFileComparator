@@ -8,3 +8,7 @@ The script then downloads the necessary repository and all versions of the file 
 The result file is a table using ';' as a delimeter. Row starting with *"BRANCH:"* specifies the branch, the first column all tags for the branch. If there is an asterisk symbol '\*' in the second column, then file `FILE` from this tag differs from the previous one. Branches are separated by an empty row. 
 
 Currently supports OpenSSL and LibTomCrypt GitHub repositories, but the script is easy enough to modify for any repository.
+
+Here you can see an example (this one is OpenSSL):
+
+<img src="http://i.imgur.com/5x2Kdnm.png?1" />
