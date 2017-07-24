@@ -2,7 +2,7 @@
 
 # this should be the only line you need to alter
 # to specify the file you want to compare across different releases
-FILE=crypto/rsa/rsa_gen.c
+FILE=crypto/bn/bn_X931P.c
 
 # directory named DIR will store all the versions of FILE
 # their names follow the "<realease_name>.txt" format
@@ -33,7 +33,7 @@ done
 # it is viewable by Excel-like apps, ';' is the delimeter
 # if there is '*' in the second column, then the version differs from the previous one
 # branches delimited by an empty row and a header specifying the name of the branch
-RESULT=../result_openssl.txt
+RESULT=../result_openssl_$DIR.txt
 if [ -f $RESULT ]
 then
 	rm $RESULT

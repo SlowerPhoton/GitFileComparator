@@ -33,7 +33,7 @@ done
 # it is viewable by Excel-like apps, ';' is the delimeter
 # if there is '*' in the second column, then the version differs from the previous one
 # branches delimited by an empty row and a header specifying the name of the branch
-RESULT=../result_libtomcrypt.txt
+RESULT=../result_libtomcrypt_$DIR.txt
 if [ -f $RESULT ]
 then
 	rm $RESULT
